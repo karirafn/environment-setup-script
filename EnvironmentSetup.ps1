@@ -19,8 +19,7 @@
     Write-Host "Determining action for $name ... " -NoNewline
 
     $list = winget list $name --exact
-    $split = $list -split ' '
-    $versions = $split | Where-Object { $_ -match '^(\d+[.]|\d+[.]\d+)+$' } | Get-Unique
+    $versions = $list -split ' ' | Where-Object { $_ -match '^(\d+[.]|\d+[.]\d+)+$' } | Get-Unique
     $versionCount = ($versions | Measure-Object).Count
 
     $action = switch($versionCount) {
