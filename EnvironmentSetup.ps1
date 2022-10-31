@@ -3,6 +3,7 @@
     'Git.Git'
     'Google.AndroidStudio'
     'Google.Chrome'
+    'JGraph.Draw'
     'Microsoft.OneDrive'
     'Microsoft.PowerShell'
     'Microsoft.VisualStudioCode'
