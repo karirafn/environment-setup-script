@@ -25,6 +25,7 @@
     'Skillbrains.Lightshot'
     'SlackTechnologies.Slack'
     'SonicWALL.NetExtender'
+    'Spotify.Spotify'
     'TeamViewer.TeamViewer'
     'Telerik.Fiddler.Classic'
     'VivaldiTechnologies.Vivaldi'
