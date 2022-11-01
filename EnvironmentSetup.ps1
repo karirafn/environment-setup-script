@@ -1,18 +1,32 @@
 @(
     '7zip.7zip'
+    '9WZDNCRDJ8LH' # AnyConnect
+    'Canonical.Ubuntu'
+    'dbeaver.dbeaver'
+    'Docker.DockerDesktop'
+    'Foxit.FoxitReader'
     'Git.Git'
     'Google.AndroidStudio'
     'Google.Chrome'
+    'JetBrains.IntelliJIDEA.Community'
     'JGraph.Draw'
     'Microsoft.OneDrive'
+    'Microsoft.PowerBI'
     'Microsoft.PowerShell'
+    'Microsoft.Teams'
     'Microsoft.VisualStudioCode'
-    'Microsoft.VisualStudio.2022.Community',
+    'Microsoft.VisualStudio.2022.Professional',
     'Microsoft.WindowsTerminal'
+    'Mozilla.Firefox'
     'Notepad++.Notepad++'
     'OpenJS.NodeJS'
+    'PuTTY.PuTTY'
     'Skillbrains.Lightshot'
+    'SlackTechnologies.Slack'
+    'SonicWALL.NetExtender'
+    'TeamViewer.TeamViewer'
     'Telerik.Fiddler.Classic'
+    'VivaldiTechnologies.Vivaldi'
 ) | ForEach-Object {
     $name = $_
 
@@ -32,5 +46,5 @@
 
     if ($action -eq 'none') { return }
 
-    winget $action $name --silent --accept-package-agreements --accept-source-agreements
+    kart $action $name --silent --accept-package-agreements --accept-source-agreements
  }
