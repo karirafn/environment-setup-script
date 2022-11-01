@@ -10,6 +10,7 @@
     'Google.Chrome'
     'JetBrains.IntelliJIDEA.Community'
     'JGraph.Draw'
+    'Microsoft.AzureDataStudio'
     'Microsoft.OneDrive'
     'Microsoft.PowerBI'
     'Microsoft.PowerShell'
