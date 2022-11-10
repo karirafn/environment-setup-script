@@ -17,7 +17,7 @@
     'Microsoft.SQLServerManagementStudio'
     'Microsoft.Teams'
     'Microsoft.VisualStudioCode'
-    'Microsoft.VisualStudio.2022.Professional',
+    'Microsoft.VisualStudio.2022.Professional'
     'Microsoft.WindowsTerminal'
     'Mozilla.Firefox'
     'Notepad++.Notepad++'
