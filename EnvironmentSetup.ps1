@@ -49,5 +49,5 @@
 
     if ($action -eq 'none') { return }
 
-    kart $action $name --silent --accept-package-agreements --accept-source-agreements
+    $action $name --silent --accept-package-agreements --accept-source-agreements
  }
