@@ -14,6 +14,7 @@
     'Microsoft.OneDrive'
     'Microsoft.PowerBI'
     'Microsoft.PowerShell'
+    'Microsoft.SQLServerManagementStudio'
     'Microsoft.Teams'
     'Microsoft.VisualStudioCode'
     'Microsoft.VisualStudio.2022.Professional',
